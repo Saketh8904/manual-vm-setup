@@ -34,24 +34,24 @@ User → Nginx → Tomcat → Database / Cache / Message Queue
 - Maven
 
 ## 📁 Project Structure
-vprofile-manual-vm-setup/
-│
+vprofile-manual-vm-setup
 ├── README.md
-├── vagrant/
-│ └── Manual_provisioning/
-│ └── Vagrantfile
 │
-├── scripts/
-│ ├── mysql-setup.md
-│ ├── memcache-setup.md
-│ ├── rabbitmq-setup.md
-│ ├── tomcat-setup.md
-│ └── nginx-setup.md
+├── vagrant
+│   └── Manual_provisioning
+│       └── Vagrantfile
 │
-└── docs/
-├── architecture.md
-├── service-order.md
-└── access-info.md
+├── scripts
+│   ├── mysql-setup.md
+│   ├── memcache-setup.md
+│   ├── rabbitmq-setup.md
+│   ├── tomcat-setup.md
+│   └── nginx-setup.md
+│
+└── docs
+    ├── architecture.md
+    ├── service-order.md
+    └── access-info.md
 
 yaml
 Copy code
